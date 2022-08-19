@@ -8,10 +8,10 @@ export default function Footer() {
             <footer>
                 <div className="container">
                     <div className="soc-btn">
-                        <FontAwesomeIcon className="fb" icon={faFacebook} />
-                        <FontAwesomeIcon className="ln" icon={faLinkedin} />
-                        <FontAwesomeIcon className="github" icon={faGithub} />
-                        <FontAwesomeIcon className="gplus" icon={faGooglePlus} />
+                        <a href="https://www.facebook.com/HayrapetyanVazgen" target="_blank"><FontAwesomeIcon className="fb" icon={faFacebook} /></a>
+                        <a href="https://www.linkedin.com/in/vazgenhayrapetyan97" target="_blank"><FontAwesomeIcon className="ln" icon={faLinkedin} /></a>
+                        <a href="https://github.com/vazgen97" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
+                        <a href="" target="_blank"><FontAwesomeIcon className="gplus" icon={faGooglePlus} /></a>
                     </div>
                     <p>&copy; 2022 Վազգեն Հայրապետյան</p>
                 </div>

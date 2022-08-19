@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin, faGithub, faGooglePlus } from "@fortawesome/free-brands-svg-icons";
 import "../assets/style/logos.scss";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -23,7 +24,7 @@ export default function Home() {
                                 <FontAwesomeIcon className="gplus" icon={faGooglePlus} />
                             </div>
                             <div className="contact-me">
-                                <a className="item" href="/contact">Կապ հաստատեք ինձ հետ</a>
+                            <Link className="item" to="/contact">Կապ հաստատեք ինձ հետ</Link>
                             </div>
                         </div>
                     </div>
