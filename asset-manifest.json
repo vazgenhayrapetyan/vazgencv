@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vazgencv/static/css/main.1ecd9269.css",
+    "main.js": "/vazgencv/static/js/main.a55c2c3b.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/vazgencv/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/venusam.PNG": "/vazgencv/static/media/venusam.47dc8e9517d17c01cfb6.PNG",
+    "static/media/home_bg.jpg": "/vazgencv/static/media/home_bg.e592c842f48524062b79.jpg",
+    "static/media/js-certificate.png": "/vazgencv/static/media/js-certificate.8f68d5dd706ec9724514.png",
+    "static/media/education_bg.jpg": "/vazgencv/static/media/education_bg.5c9fe7bace82a1ad4a23.jpg",
+    "static/media/experienc_bg.jpg": "/vazgencv/static/media/experienc_bg.56a539ef48f355f73139.jpg",
+    "static/media/projects_bg.jpg": "/vazgencv/static/media/projects_bg.67c45ba40a0b6e775e3e.jpg",
+    "static/media/contact_bg.jpg": "/vazgencv/static/media/contact_bg.0cd11f6afe0e54c908de.jpg",
+    "static/media/venus-logo.png": "/vazgencv/static/media/venus-logo.ebad6310ed0e35ee2285.png",
+    "static/media/VH.jpg": "/vazgencv/static/media/VH.586b2a7df15287d01baf.jpg",
+    "static/media/nuaca.PNG": "/vazgencv/static/media/nuaca.f33309c633d6b9b49365.PNG",
+    "index.html": "/vazgencv/index.html",
+    "main.1ecd9269.css.map": "/vazgencv/static/css/main.1ecd9269.css.map",
+    "main.a55c2c3b.js.map": "/vazgencv/static/js/main.a55c2c3b.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/vazgencv/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ecd9269.css",
+    "static/js/main.a55c2c3b.js"
+  ]
+}
