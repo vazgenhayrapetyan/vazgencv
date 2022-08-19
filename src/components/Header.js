@@ -10,7 +10,7 @@ export default function Header() {
             <header className="header">
                 <nav className="navbar">
                     <ul>
-                        <li><Link className="home-btn" to="/">Գլխավոր</Link></li>
+                        <li><Link className="home-btn" to="/vazgencv">Գլխավոր</Link></li>
                         <li><Link className="education" to="/education">Կրթություն և վկայականներ</Link></li>
                         <li><Link className="experience" to="/experience">Փորձ</Link></li>
                         <li><Link className="project" to="/project">Նախագծեր</Link></li>
