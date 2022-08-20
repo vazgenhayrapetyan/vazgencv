@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vazgencv/static/css/main.1ecd9269.css",
-    "main.js": "/vazgencv/static/js/main.29e01b54.js",
+    "main.css": "/vazgencv/static/css/main.875fadb7.css",
+    "main.js": "/vazgencv/static/js/main.9d68b40e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/vazgencv/static/js/787.c4e7f8f9.chunk.js",
     "static/media/venusam.PNG": "/vazgencv/static/media/venusam.47dc8e9517d17c01cfb6.PNG",
     "static/media/home_bg.jpg": "/vazgencv/static/media/home_bg.e592c842f48524062b79.jpg",
@@ -14,12 +14,12 @@
     "static/media/VH.jpg": "/vazgencv/static/media/VH.586b2a7df15287d01baf.jpg",
     "static/media/nuaca.PNG": "/vazgencv/static/media/nuaca.f33309c633d6b9b49365.PNG",
     "index.html": "/vazgencv/index.html",
-    "main.1ecd9269.css.map": "/vazgencv/static/css/main.1ecd9269.css.map",
-    "main.29e01b54.js.map": "/vazgencv/static/js/main.29e01b54.js.map",
+    "main.875fadb7.css.map": "/vazgencv/static/css/main.875fadb7.css.map",
+    "main.9d68b40e.js.map": "/vazgencv/static/js/main.9d68b40e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/vazgencv/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ecd9269.css",
-    "static/js/main.29e01b54.js"
+    "static/css/main.875fadb7.css",
+    "static/js/main.9d68b40e.js"
   ]
 }
