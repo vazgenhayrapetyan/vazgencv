@@ -18,10 +18,9 @@ export default function Home() {
                             <h1>Ես Վազգեն Հայրապետյանն եմ</h1>
                             <h4>Full Stack ծրագրավորող</h4>
                             <div className="social-btn">
-                                <FontAwesomeIcon className="fb" icon={faFacebook} />
-                                <FontAwesomeIcon className="ln" icon={faLinkedin} />
-                                <FontAwesomeIcon className="github" icon={faGithub} />
-                                <FontAwesomeIcon className="gplus" icon={faGooglePlus} />
+                                <a href="https://www.facebook.com/HayrapetyanVazgen" target="_blank"><FontAwesomeIcon className="fb" icon={faFacebook} /></a>
+                                <a href="https://www.linkedin.com/in/vazgenhayrapetyan97/" target="_blank"><FontAwesomeIcon className="ln" icon={faLinkedin} /></a>
+                                <a href="https://github.com/vazgen97" target="_blank"><FontAwesomeIcon className="github" icon={faGithub} /></a>
                             </div>
                             <div className="contact-me">
                             <Link className="item" to="/contact">Կապ հաստատեք ինձ հետ</Link>
@@ -40,7 +39,7 @@ export default function Home() {
                         <img src={require('../assets/image/VH.jpg')} />
                     </div>
                     <div className="col-9">
-                        <p>Ունեմ մեծ հետաքրքրություններ էլեկտրոտեխնիկայի, նորագույն տեխնոլոգիաների, ռոբոտացված համակարգերի աշխատանքի, ծրագրավորման և զարգացման ճյուղերում։ Մշտապես զբաղվել եմ ինքնակրթվելով։ </p>
+                        <p>Ունեմ մեծ հետաքրքրություններ էլեկտրոտեխնիկայի, նորագույն տեխնոլոգիաների, ռոբոտացված համակարգերի, ծրագրավորման տեխնոլոգիաների նկատմամբ։ Հետևում եմ ոլորտի զարգացումներին, մշտապես զբաղվում եմ ինքնակրթությամբ։ Ներկա պահին ուսումնասիրում եմ C# ծրագրավորման լեզուն։ Հետաքրքրված եմ նաև խաղերի ծրագրավորման ուղղությամբ։</p>
                     </div>
                 </div>
             </div>

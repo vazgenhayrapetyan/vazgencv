@@ -56,7 +56,6 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.col-10 {width: 10%;}
 .col-20 {width: 20%;}
 .col-30 {width: 30%;}
 .col-40 {width: 40%;}
@@ -85,7 +84,24 @@ hr {
     margin: 0 auto;
 } 
 .navbar {
-    ul {
+    .fabars {
+        display: none;
+        position: absolute;
+        right: 35px;
+        svg {
+            width: 20px;
+            height: 20px;
+            padding: 13px 15px;
+            background-color: rgba(255, 255, 255, 0.356);
+            color: #343434;
+            border-radius: 5px;
+            transition: all .3s;
+        }
+    }
+    .show-menu {
+        left: 0!important;
+    }
+    .nav-links {
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap;
@@ -121,6 +137,41 @@ hr {
         }
     }
 }
+@media (max-width: 1024px) {
+    .navbar {
+        .fabars {
+            display: block;
+            position: fixed;
+            .show-bars {
+                display: block;
+            }
+            .hidden-bars {
+                display: none;
+            }
+        }
+        .nav-links {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: -60%;
+            width: 60%;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #f5f5f5;
+            transition: all .2s;
+            z-index: 999;
+            li {
+                margin-left: 0;
+                a {
+                    display: block;
+                    border: 1px solid #c7c7c759;
+                    border-radius: 0;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
 /*End Header*/
 /*Footer*/
 footer {
@@ -128,10 +179,16 @@ footer {
     background-color:rgb(36, 41, 47);
     margin-top: 45px;
     .soc-btn {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         position: absolute;
         margin-top: 15px;
         left: 50%;
         transform: translate(-50%);
+        a {
+            margin: 5px;
+        }
         svg {
             color: #fff;
             width: 40px;
@@ -209,37 +266,19 @@ footer {
             height: 40px;
             margin: 10px 15px 0 0;
             transition: all .2s ease-in-out;
+            cursor: pointer;
         }
         .fb {
             color: #1B74E4;
             border-radius: 50%;
-            &:hover::after {
-                width: 60px;
-                height: 60px;
-                border: 1px solid #1B74E4;
-    
-            }
         }
         .ln {
             color: #0A66C2;
             border-radius: 10px;
-            &:hover {
-                box-shadow: rgb(10, 102, 194) 0px 2px 14px;
-            }
         }
         .github {
             color: #24292F;
             border-radius: 50%;
-            &:hover {
-                box-shadow: rgb(36, 41, 47) 0px 2px 14px;
-            }
-        }
-        .gplus {
-            color: #D64E42;
-            border-radius: 50%;
-            &:hover {
-                box-shadow: rgb(214, 78, 66) 0px 2px 14px;
-            }
         }
     }
     .contact-me {
@@ -265,8 +304,10 @@ footer {
 /*About*/
 .my-photo {
     img {
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        max-width: 250px;
+        height: 100%;
+        max-height: 250px;
         border-radius: 5px;
     }
 }
@@ -283,7 +324,8 @@ footer {
     width: 100%;
     margin-bottom: 25px;
     .stud-image {
-        width: 25%;
+        // width: 25%;
+        margin-top: 10px;
         img {
             display: block;
             max-width: 100%;
@@ -292,9 +334,10 @@ footer {
         }
     }
     .stud-body {
-        width: 75%;
+        // width: 75%;
         border: 1px solid #9d9d9d;
         border-radius: 10px;
+        margin-top: 10px;
         .stud-body-title {
             display: flex;
             align-items: center;
@@ -314,6 +357,7 @@ footer {
         .stud-body-body {
             position: relative;
             padding: 10px 20px;
+            min-height: 130px;
             p {
                 font-size: 20px;
             }

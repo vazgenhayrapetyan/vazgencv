@@ -15,10 +15,10 @@ export default function Project() {
             <div className="row">
                 
                 <div className="stud">
-                    <div className="stud-image">
+                    <div className="col-20 stud-image">
                         <img src={require('../assets/image/venus-logo.png')} />
                     </div>
-                    <div className="stud-body">
+                    <div className="col-80 stud-body">
                         <div className="stud-body-title">
                             <h1>Վենուս էլեկտրոտեխնիկա</h1>
                         </div>
@@ -29,10 +29,10 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="stud">
-                    <div className="stud-image">
+                    <div className="col-20 stud-image">
                         <img src={require('../assets/image/venus-logo.png')} />
                     </div>
-                    <div className="stud-body">
+                    <div className="col-80 stud-body">
                         <div className="stud-body-title">
                             <h1>Վենուս էլեկտրոտեխնիկա</h1>
                         </div>
