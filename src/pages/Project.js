@@ -25,7 +25,25 @@ export default function Project() {
                             <div className="proj-body-body">
                                 <p>HTML5 + CSS3</p>
                                 <p>Javascript</p>
+                                <p>TAWK</p>
                                 <p>PHP</p>
+                                <p>OpenCart CMS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project">
+                        <div className="col-60 proj-image">
+                            <img src={require('../assets/image/armadaam.PNG')} />
+                        </div>
+                        <div className="col-40 proj-body">
+                            <div className="proj-body-title">
+                                <a href="https://armadamall.am" target="_blank"><h1>armadamall.am</h1></a>
+                            </div>
+                            <div className="proj-body-body">
+                                <p>HTML5 + CSS3</p>
+                                <p>Javascript</p>
+                                <p>PHP</p>
+                                <p>TAWK</p>
                                 <p>OpenCart CMS</p>
                             </div>
                         </div>
