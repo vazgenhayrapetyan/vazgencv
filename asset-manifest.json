@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vazgencv/static/css/main.9f04fb66.css",
-    "main.js": "/vazgencv/static/js/main.d43014d6.js",
+    "main.js": "/vazgencv/static/js/main.35751ea1.js",
     "static/js/787.c4e7f8f9.chunk.js": "/vazgencv/static/js/787.c4e7f8f9.chunk.js",
     "static/media/armadaam.PNG": "/vazgencv/static/media/armadaam.e9580b332a18be1c58bb.PNG",
     "static/media/venusam.PNG": "/vazgencv/static/media/venusam.47dc8e9517d17c01cfb6.PNG",
@@ -16,11 +16,11 @@
     "static/media/nuaca.PNG": "/vazgencv/static/media/nuaca.f33309c633d6b9b49365.PNG",
     "index.html": "/vazgencv/index.html",
     "main.9f04fb66.css.map": "/vazgencv/static/css/main.9f04fb66.css.map",
-    "main.d43014d6.js.map": "/vazgencv/static/js/main.d43014d6.js.map",
+    "main.35751ea1.js.map": "/vazgencv/static/js/main.35751ea1.js.map",
     "787.c4e7f8f9.chunk.js.map": "/vazgencv/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f04fb66.css",
-    "static/js/main.d43014d6.js"
+    "static/js/main.35751ea1.js"
   ]
 }
